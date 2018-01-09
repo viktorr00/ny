@@ -1,0 +1,13 @@
+.flex-container {
+     display:flex;
+     width: 450px;
+     height: 450px;
+     background-color:green;
+     flex-direction: column;
+     align-content:flex-end;
+}
+
+.flex-item {
+  background-color: red;
+  border-style: solid;
+}
