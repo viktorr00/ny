@@ -4,6 +4,7 @@ body{
   background-size:cover;
   color:blue;
 
+
 }
 
 .button {
@@ -26,7 +27,7 @@ ul {
     background-color:black;
 }
 
-li {
+.meny {
     float: left;
 }
 
@@ -44,4 +45,90 @@ li a:hover:not(.active) {
 
 .active {
     background-color:red;
+}
+h3{
+font-family: 'Domine', serif;
+}
+h2{
+font-family: 'Domine', serif;
+}
+h1{
+font-family: 'Domine', serif;
+}
+li{
+font-family: 'Domine', serif;
+}
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #848991}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+.lit{
+  text-align: center;
+}
+.svart {
+  background-color: black;
+  padding: 0 16px;
+    border-radius: 25px;
+      box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.8);
+      width: 450px;
+}
+.svart2 {
+  background-color: black;
+  padding: 0 16px;
+    border-radius: 25px;
+      box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.8);
+      width: 450px;
+    }
+
+table {
+    font-family: 'Domine', serif;
+    border-collapse: collapse;
+    width: 450px;
+}
+
+td, th {
+    border: 0.5px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
