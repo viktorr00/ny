@@ -1,8 +1,8 @@
 body{
-  background-image: url("flames2.jpeg");
+  background-image: url("tree.png");
   background-repeat:no-repeat;
   background-size:cover;
-  color:blue;
+  color:black;
 }
 
 ul {
@@ -30,7 +30,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color:red;
+    background-color:#51595b;
 }
 .flex-container {
   display: flex;
@@ -50,3 +50,9 @@ li a:hover:not(.active) {
 li{
 font-family: 'Domine', serif;
 }
+div {
+    font-family: 'Domine', serif;
+  }
+  h1{
+  font-family: 'Domine', serif;
+  }

@@ -1,8 +1,8 @@
 body{
-  background-image: url("flames2.jpeg");
+  background-image: url("tree.png");
   background-repeat:no-repeat;
   background-size:cover;
-  color:blue;
+  color:black;
 
 
 }
@@ -44,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color:red;
+    background-color:#51595b;
 }
 h3{
 font-family: 'Domine', serif;
@@ -59,7 +59,7 @@ li{
 font-family: 'Domine', serif;
 }
 .dropbtn {
-    background-color: blue;
+    background-color: black;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -97,20 +97,20 @@ font-family: 'Domine', serif;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: blue;
+    background-color: black;
 }
 .lit{
   text-align: center;
 }
 .svart {
-  background-color: black;
+  background-color: white;
   padding: 0 16px;
     border-radius: 25px;
       box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.8);
       width: 450px;
 }
 .svart2 {
-  background-color: black;
+  background-color: white;
   padding: 0 16px;
     border-radius: 25px;
       box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.8);

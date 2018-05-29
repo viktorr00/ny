@@ -1,12 +1,12 @@
 body{
-  background-image: url("flames2.jpeg");
+  background-image: url("tree.png");
   background-repeat:no-repeat;
   background-size:cover;
-  color:blue;
+  color:black;
 }
 
 .button {
-    background-color: blue;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -45,7 +45,7 @@ html {
 
 .container {
   padding: 0 16px;
-  background-color: black;
+  background-color: white;
   border-radius: 25px;
 }
 
@@ -80,7 +80,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color:red;
+    background-color:#51595b;
 }
 #rcorners {
     border-radius: 25px;
@@ -98,5 +98,11 @@ p{
 font-family: 'Domine', serif;
 }
 li{
+font-family: 'Domine', serif;
+}
+h1{
+font-family: 'Domine', serif;
+}
+div{
 font-family: 'Domine', serif;
 }
